@@ -1,4 +1,4 @@
-# Audio-Splitter
+# Audio-Splitter
 
 The Audio-Splitter is a versatile audio device featuring a 4-input selection (including built-in Bluetooth) and 3 output options: 2 stereo RCA outputs and 1 balanced mono output with a switchable low-pass filter.
 

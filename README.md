@@ -20,7 +20,7 @@ This project aimed to delve into electronics and analog circuits by creating a c
 - Adjustable input volume
 - Complete integration of the power supply (including the transformer and regulation towards two symmetrical 12V outputs plus a continuous 5V output) into the device.
 
-## Power Supply and safety Considerations
+## Power Supply and safety Considerations
 
 The analog circuit is based on operational amplifiers (TL072) requiring a symmetrical power supply. To simplify the task, I decided to use ([a pre-designed symmetrical power supply module](https://www.gotronic.fr/pj2-illustrated-assembly-manual-k8042-2451.pdf)), supplied with components to solder onto a PCB. The output voltage is adjustable between 2 to 24V and requires connection to a double-input transformer. For the transformer part, I chose to integrate a molded transformer with a 2x15VA output into the device.
 
@@ -31,7 +31,7 @@ If one chooses to integrate the transformer into the device, there are two reaso
 - Insulate the entire device with sufficient plastic isolation to fully isolate the circuit from the user, including and especially at the level of adjustment knobs and connectors. In this scenario, it's possible to forego connecting the device to ground. While this scenario won't prevent short circuits, it will protect the user.
 - Use a metal enclosure and ensure that all parts likely to be touched by the user are grounded. This scenario minimizes the risk of short circuits since current leaks are more likely to be detected by the circuit breaker in your electrical installation. And even if the leakage is not detected by the circuit breaker, grounding the parts in contact with the user will prevent potentially fatal shocks.
 
-## My design choice
+## My design choice
 
 The choice I made does not adhere to either of these scenarios, as I opted to use a wooden enclosure for simplicity of fabrication. However, I took certain precautions in the design of the device:
 
@@ -47,7 +47,7 @@ The choice I made does not adhere to either of these scenarios, as I opted to us
 
 # Circuit details
 
-### Power supply
+### Power supply
 
 ![PSU](imgs/top-PSU.jpg)
 ![PSU](schematic/symetric-alim.png)
